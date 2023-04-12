@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+}
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 30px;
+}
+header a {
+    text-decoration: none;
+    color: #555;
+    font-style: Regular;
+    font-size: 22px;
+    line-height: 29px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 5%;
+
+}
+
+header a:hover {
+    color: #FB5014;
+}
+
+#novigate {
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 20px;
+    margin-right: auto;
+    font-weight: 00;
+    color: #FB5014;
+    font-size: 54px;
+    line-height: 70px;
+    font-style: bold;
+}
+
+.nike {
+    width: 555px;
+    height: 149.94px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 123px;
+    line-height: 150px;
+    letter-spacing: 0.05em;
+    
+
+    color: #000000;
+    
+}
+
+span {
+    color: #17B4CC;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#text {
+    width: 526px;
+    height: 85px;
+    
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+
+color: #000000;
+}
+
+.letter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 80px;
+}
+.circles li {
+    list-style: none;
+    display: block;
+    padding: 5px;
+    margin: 30px;
+    border: 0.6px solid rgba(180, 180, 180, 0.779);
+    border-radius: 50%;
+}
+
+.search {
+    box-sizing: border-box;
+    padding: 15px;
+    font-family:'Montserrat';
+    font-style: italic;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 414px;
+    height: 52px;
+}
+.search p:hover {
+    color: #FB5014;
+}
+#shop{
+    width: 324px;
+    height: 71px;
+    
+    background: #FB5014;
+    box-shadow: 0px 5px 7px rgba(251, 80, 20, 0.25);
+    border-radius: 30px;
+    
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 69px; 
+    text-align: center;
+    
+    letter-spacing: 0.05em;
+    position: absolute;
+
+    color: #FFFFFF;
+}
